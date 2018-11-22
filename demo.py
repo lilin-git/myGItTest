@@ -12,12 +12,6 @@ start_time = time.time()
 psbot = PushiPSBot(MODEL_PATH)
 print('Initialization took {}'.format(time.time() - start_time))
 
-start_time = time.time()
-psbot.enhance('test_images/image1.jpg')
-psbot.enhance('test_images/image2.jpg')
-psbot.enhance('test_images/image3.jpg')
-psbot.enhance('test_images/image4.jpg')
-print('Inference took {} for 4 images'.format(time.time() - start_time))
 
 
 
